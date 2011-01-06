@@ -19,6 +19,8 @@ trap("INT") do
   EventMachine.stop_event_loop
 end
 
+# Start the EM event loop. Make sure to have any set up before this as this
+# call will block until EventMachine.stop_event_loop is called.
 EventMachine.run do
   # Start a server
   EventMachine.start_server('0.0.0.0', 1845, Server)
