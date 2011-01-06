@@ -1,0 +1,28 @@
+= EventMachine Demos
+
+A collection of demos and examples for using EventMachine.
+
+== Note about Comments
+
+I've tried to comment the important parts of each example. If it's not
+commented then you can probably gloss over it. There is also the occasional
+print statement to give you an idea of whats going on while it's running.
+
+== Usage
+
+    $ bundle install
+    $ ruby [example file]
+
+== Examples
+
+=== template.rb
+
+  Basic template I use when doing some prototyping. It has stubs for the major
+  event methods as well as an event loop and signal trap for exiting cleanly.
+
+=== reconnect.rb
+
+  Reconnecting is easy with EventMachine, unfortunately reconnecting to the same
+  server requires the old host and port which aren't readily available. This
+  example shows reconnects as well as how to pass in arguments to the
+  connection's constructor.
