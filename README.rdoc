@@ -26,3 +26,10 @@ Reconnecting is easy with EventMachine, unfortunately reconnecting to the same
 server requires the old host and port which aren't readily available. This
 example shows reconnects as well as how to pass in arguments to the
 connection's constructor.
+
+== Demos
+
+=== twitter_stash.rb
+
+Connects to the twitter firehose and stores the matching tweets in a mongo
+database. Shows off basic usage of twitter-stream and em-mongo.

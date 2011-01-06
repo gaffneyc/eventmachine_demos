@@ -20,6 +20,7 @@ GEM
     twitter-stream (0.1.10)
       eventmachine (>= 0.12.8)
       roauth (>= 0.0.2)
+    yajl-ruby (0.7.8)
 
 PLATFORMS
   ruby
@@ -31,3 +32,4 @@ DEPENDENCIES
   em-redis
   eventmachine (~> 0.12.10)
   twitter-stream
+  yajl-ruby

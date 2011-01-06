@@ -7,5 +7,7 @@ gem 'eventmachine', '~> 0.12.10'
 gem 'amqp'
 gem 'em-mongo'
 gem 'em-redis'
-gem 'twitter-stream'
 gem 'em-http-request'
+
+gem 'yajl-ruby',      :require => 'yajl'
+gem 'twitter-stream', :require => 'twitter/json_stream'
