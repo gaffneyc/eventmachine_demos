@@ -10,19 +10,19 @@ print statement to give you an idea of whats going on while it's running.
 
 == Usage
 
-    $ bundle install
-    $ ruby [example file]
+  $ bundle install
+  $ ruby [example file]
 
 == Examples
 
 === template.rb
 
-  Basic template I use when doing some prototyping. It has stubs for the major
-  event methods as well as an event loop and signal trap for exiting cleanly.
+Basic template I use when doing some prototyping. It has stubs for the major
+event methods as well as an event loop and signal trap for exiting cleanly.
 
 === reconnect.rb
 
-  Reconnecting is easy with EventMachine, unfortunately reconnecting to the same
-  server requires the old host and port which aren't readily available. This
-  example shows reconnects as well as how to pass in arguments to the
-  connection's constructor.
+Reconnecting is easy with EventMachine, unfortunately reconnecting to the same
+server requires the old host and port which aren't readily available. This
+example shows reconnects as well as how to pass in arguments to the
+connection's constructor.
