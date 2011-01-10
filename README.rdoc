@@ -27,6 +27,10 @@ server requires the old host and port which aren't readily available. This
 example shows reconnects as well as how to pass in arguments to the
 connection's constructor.
 
+=== normal.rb, normal_threads.rb, normal_nonblocking.rb
+
+Example echo server written using the built in Ruby sockets.
+
 == Demos
 
 === twitter_stash.rb
